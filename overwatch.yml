@@ -1,0 +1,5 @@
+name: overwatch
+dependencies:
+  - python=3.6
+  - numpy
+  - scikit-image
