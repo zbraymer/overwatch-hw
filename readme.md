@@ -4,16 +4,17 @@
 
 1. Unzip the folder/repository, change directory to folder.
 
-    `cd <directory/of/script>`
+    `cd <directory/of/repository>`
 
 2. create a conda environment
     
     `conda env create -f overwatch.yml`
+    
     `conda activate overwatch`
 
 3. Run the script
 
-    `python rail_finder.py <path/to/image_file>`
+    `python railroad_finder/rail_finder.py <path/to/image_file>`
 
 
 ### Optional

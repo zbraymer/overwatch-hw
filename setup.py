@@ -12,7 +12,7 @@ setup(
     license='MIT',
     entry_points={
         'console_scripts': [
-            'rail_finder = rail_finder.rail_finder:main',
+            'rail_finder = railroad_finder.rail_finder:main',
         ],
     }
 )
