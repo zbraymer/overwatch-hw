@@ -84,7 +84,7 @@ def process_image(input_file, output_file, line_width):
         base, ext = os.path.splitext(input_file)
         output_file = base + "_wLine" + ext
 
-    # Save the image 
+    # Save the image
     skimage.io.imsave(output_file, data)
 
     return
